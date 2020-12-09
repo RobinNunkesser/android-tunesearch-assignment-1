@@ -1,6 +1,7 @@
 plugins {
     id 'com.android.application'
     id 'kotlin-android'
+    id 'kotlin-android-extensions'
 }
 
 android {
@@ -42,8 +43,8 @@ dependencies {
     implementation 'androidx.lifecycle:lifecycle-livedata-ktx:2.2.0'
     implementation 'androidx.lifecycle:lifecycle-viewmodel-ktx:2.2.0'
     implementation 'de.hshl.isd:explicitarchitecture:0.0.1'
-    implementation 'de.hshl.isd:explicitarchitecture-tunesearch-mockcore:0.0.1'
-    implementation 'de.hshl.isd:explicitarchitecture-tunesearch-core-ports:0.0.1'
+    implementation 'de.hshl.isd:explicitarchitecture-tunesearch-mockcore:0.0.3'
+    implementation 'de.hshl.isd:explicitarchitecture-tunesearch-core-ports:0.0.3'
     testImplementation 'junit:junit:4.+'
     androidTestImplementation 'androidx.test.ext:junit:1.1.2'
     androidTestImplementation 'androidx.test.espresso:espresso-core:3.3.0'
