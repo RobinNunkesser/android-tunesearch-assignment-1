@@ -7,5 +7,4 @@ dependencyResolutionManagement {
     }
 }
 rootProject.name = "TuneSearchAssignment1"
-include(":app")
- 
+include ':app'
